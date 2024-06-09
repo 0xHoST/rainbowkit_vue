@@ -9,9 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@raveyard/rainbowkit-vue": "file:../../packages/vue",
-    "@raveyard/rainbowkit-vue-i18n-locale-provider": "file:../../packages/i18n-locale-provider",
-    "@raveyard/rainbowkit-vue-siwe-auth-provider": "file:../../packages/siwe-auth-provider",
+    "use-rainbowkit-vue": "file:../../packages/vue",
+    "use-rainbowkit-vue-i18n-locale-provider": "file:../../packages/i18n-locale-provider",
+    "use-rainbowkit-vue-siwe-auth-provider": "file:../../packages/siwe-auth-provider",
     "@tanstack/vue-query": "^5.29.0",
     "@wagmi/vue": "^0.0.11",
     "buffer": "^6.0.3",

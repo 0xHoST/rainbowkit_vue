@@ -48,9 +48,9 @@ import {
     RainbowKitPluginOptions,
     mainnet,
     sepolia
-} from '@raveyard/rainbowkit-vue';
-import { RainbowKitVueI18nLocaleAdapterPlugin } from '@raveyard/rainbowkit-vue-i18n-locale-provider';
-import { RainbowKitVueSiweAuthAdapterPlugin } from '@raveyard/rainbowkit-vue-siwe-auth-provider';
+} from 'use-rainbowkit-vue';
+import { RainbowKitVueI18nLocaleAdapterPlugin } from 'use-rainbowkit-vue-i18n-locale-provider';
+import { RainbowKitVueSiweAuthAdapterPlugin } from 'use-rainbowkit-vue-siwe-auth-provider';
 import { Chain } from 'viem';
 import { App, h } from 'vue';
 

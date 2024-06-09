@@ -17,7 +17,7 @@ If found error such as buffer not defined or any node module not defined, instal
 
 ```ts
 import { createApp } from 'vue'
-import '@raveyard/rainbowkit-vue/style.css';
+import 'use-rainbowkit-vue/style.css';
 
 createApp(App).use(RainbowKitVuePlugin,{ appName: 'RainbowKit demo' })
 ```

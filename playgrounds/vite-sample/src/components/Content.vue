@@ -6,7 +6,7 @@ import {
   WalletButton,
   useLocale,
   useThemeContext,
-} from "@raveyard/rainbowkit-vue";
+} from "use-rainbowkit-vue";
 import { useSendTransaction, useSignMessage, useSignTypedData } from "@wagmi/vue";
 import { Address, parseEther } from "viem";
 
