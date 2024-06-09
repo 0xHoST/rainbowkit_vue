@@ -26,7 +26,7 @@ createApp(App).use(RainbowKitVuePlugin,{ appName: 'RainbowKit demo' })
 
 ```vue
 <script lang="ts" setup>
-import { RainbowKitProvider, ConnectButton } from "@raveyard/rainbowkit-vue";
+import { RainbowKitProvider, ConnectButton } from "use-rainbowkit-vue";
 </script>
 <template>
     <div class="content">
