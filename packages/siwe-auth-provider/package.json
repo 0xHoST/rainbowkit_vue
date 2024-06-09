@@ -1,6 +1,6 @@
 {
-  "name": "@raveyard/rainbowkit-vue-siwe-auth-provider",
-  "private": true,
+  "name": "use-rainbowkit-vue-siwe-auth-provider",
+  "private": false,
   "version": "0.0.1",
   "type": "module",
   "scripts": {

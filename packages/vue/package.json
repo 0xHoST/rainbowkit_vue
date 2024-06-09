@@ -1,7 +1,7 @@
 {
-  "name": "@raveyard/rainbowkit-vue",
-  "version": "0.0.0",
-  "private": true,
+  "name": "use-rainbowkit-vue",
+  "version": "0.0.1",
+  "private": false,
   "type": "module",
   "files": [
     "dist"

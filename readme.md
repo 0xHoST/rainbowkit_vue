@@ -8,7 +8,7 @@ Based on [@wagmi/vue](https://github.com/wevm/wagmi)
 Install rainbowkit-vue and its [wagmi vue](https://github.com/unicape/use-wagmi/tree/main), [viem](https://viem.sh) peer dependencies.
 
 ```bash
-npm install @wagmi/vue viem @tanstack/vue-query @raveyard/rainbowkit-vue 
+npm install @wagmi/vue viem @tanstack/vue-query use-rainbowkit-vue 
 ```
 
 ## Setup

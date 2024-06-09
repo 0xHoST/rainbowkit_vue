@@ -1,6 +1,6 @@
 {
-  "name": "@raveyard/rainbowkit-vue-i18n-locale-provider",
-  "private": true,
+  "name": "use-rainbowkit-vue-i18n-locale-provider",
+  "private": false,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
