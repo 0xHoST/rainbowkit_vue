@@ -1,0 +1,211 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 100vh;
+  min-height: 100vh;
+
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 6px;
+  border: 1px solid transparent;
+  padding: 0.85em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+/*button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}*/
+
+.card {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 6px;
+}
+
+label {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+}
+
+label:before {
+  content: "";
+  height: 31px;
+  position: absolute;
+  right: 7px;
+  top: 3px;
+  width: 22px;
+  background: #fff;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  pointer-events: none;
+  display: block;
+}
+
+label:after {
+  content: " ";
+  position: absolute;
+  right: 15px;
+  top: 46%;
+  margin-top: -3px;
+  z-index: 2;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6.9px 4px 0 4px;
+  border-color: #aaa transparent transparent transparent;
+  pointer-events: none;
+}
+
+label select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0 30px 0 10px;
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+  line-height: 36px;
+  height: 36px;
+  background: #fff;
+  margin: 0 5px 5px 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+label select option {
+  font-size: 14px;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.checkbox-wrapper-30{
+  display: flex;
+  justify-content: center;
+}
+.checkbox-wrapper-30 .checkbox {
+  --bg: #fff;
+  --brdr: #a6a6a6;
+  --brdr-actv: #1e2235;
+  --brdr-hovr: #bbc1e1;
+  --dur: calc((var(--size, 2)/2) * 0.6s);
+  display: inline-block;
+  width: calc(var(--size, 1) * 22px);
+  position: relative;
+}
+.checkbox-wrapper-30 .checkbox:after {
+  content: "";
+  width: 100%;
+  padding-top: 100%;
+  display: block;
+}
+.checkbox-wrapper-30 .checkbox > * {
+  position: absolute;
+}
+.checkbox-wrapper-30 .checkbox input {
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  background-color: var(--bg);
+  border-radius: calc(var(--size, 1) * 4px);
+  border: calc(var(--newBrdr, var(--size, 1)) * 1px) solid;
+  color: var(--newBrdrClr, var(--brdr));
+  outline: none;
+  margin: 0;
+  padding: 0;
+  transition: all calc(var(--dur) / 3) linear;
+}
+.checkbox-wrapper-30 .checkbox input:hover,
+.checkbox-wrapper-30 .checkbox input:checked {
+  --newBrdr: calc(var(--size, 1) * 2);
+}
+.checkbox-wrapper-30 .checkbox input:hover {
+  --newBrdrClr: var(--brdr-hovr);
+}
+.checkbox-wrapper-30 .checkbox input:checked {
+  --newBrdrClr: var(--brdr-actv);
+  transition-delay: calc(var(--dur) /1.3);
+}
+.checkbox-wrapper-30 .checkbox input:checked + svg {
+  --dashArray: 16 93;
+  --dashOffset: 109;
+}
+.checkbox-wrapper-30 .checkbox svg {
+  fill: none;
+  left: 0;
+  pointer-events: none;
+  stroke: var(--stroke, var(--border-active));
+  stroke-dasharray: var(--dashArray, 93);
+  stroke-dashoffset: var(--dashOffset, 94);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2px;
+  top: 0;
+  transition: stroke-dasharray var(--dur), stroke-dashoffset var(--dur);
+}
+.checkbox-wrapper-30 .checkbox svg,
+.checkbox-wrapper-30 .checkbox input {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+#app {
+  margin: 0;
+  padding: 2rem;
+  width: 100%;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "include": [ /*"env.d.ts",*/ "src/**/*", "src/**/*.ts" ],
+  "exclude": [ "**/node_modules" ],
+  "compilerOptions": {
+    "sourceMap": false,
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [ "src/*", "dist/*" ]
+    },
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "declarationMap": true,
+    "types": ["vite/client"],
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+}

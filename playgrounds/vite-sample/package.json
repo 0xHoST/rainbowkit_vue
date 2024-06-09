@@ -1,0 +1,29 @@
+{
+  "name": "vite-sample",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@raveyard/rainbowkit-vue": "file:../../packages/vue",
+    "@raveyard/rainbowkit-vue-i18n-locale-provider": "file:../../packages/i18n-locale-provider",
+    "@raveyard/rainbowkit-vue-siwe-auth-provider": "file:../../packages/siwe-auth-provider",
+    "@tanstack/vue-query": "^5.29.0",
+    "@wagmi/vue": "^0.0.11",
+    "buffer": "^6.0.3",
+    "siwe": "^2.1.4",
+    "viem": "^2.9.32",
+    "vue": "^3.4.27",
+    "vue-i18n": "^9.13.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
