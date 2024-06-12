@@ -1,7 +1,7 @@
 {
   "name": "use-rainbowkit-vue-i18n-locale-provider",
   "private": false,
-  "version": "0.0.4",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -22,7 +22,7 @@
     }
   },
   "peerDependencies": {
-    "use-rainbowkit-vue": ">=0.0.4",
+    "use-rainbowkit-vue": ">=0.1.0",
     "typescript": ">=5.0.4",
     "vue": ">=3",
     "vue-i18n": ">=9.13.0"
@@ -36,7 +36,7 @@
     "vue": ">=3"
   },
   "devDependencies": {
-    "use-rainbowkit-vue": "^0.0.4",
+    "use-rainbowkit-vue": "^0.1.0",
     "@types/node": "^20.14.2",
     "@vitejs/plugin-vue": "^5.0.4",
     "resolve-tspaths": "^0.8.19",
