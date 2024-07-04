@@ -1,5 +1,11 @@
 # use-rainbowkit-vue
 
+## 0.4.1
+
+### Patch Changes
+
+- d975b04: Fixed metamask qrcode not display issue when extension not installed
+
 ## 0.4.0
 
 ### Minor Changes
