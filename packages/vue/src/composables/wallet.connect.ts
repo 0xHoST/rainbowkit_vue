@@ -17,7 +17,6 @@ export function configureWalletConnectStoreContext(){
         wallets,
       })?.createWalletConnectModalConnector;
     
-      console.log(connector);
     ///preload wallet connect   
     if(connector){
         store.createWalletConnectModalConnector({ createConnector:connector, config });

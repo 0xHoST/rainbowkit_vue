@@ -151,7 +151,7 @@ export function useRainbowKitPlugin() {
         }
       },
       unmounted: (el, _) => {
-        disableBodyScroll(el);
+        enableBodyScroll(el);
       }
     });
   }
@@ -198,7 +198,7 @@ export function useRainbowKitPlugin() {
         ...wagmiParameters
       });
       app.use(WagmiPlugin, { config });
-      app.use(VueQueryPlugin,{});
+      app.use(VueQueryPlugin, {});
     }
   }
 
